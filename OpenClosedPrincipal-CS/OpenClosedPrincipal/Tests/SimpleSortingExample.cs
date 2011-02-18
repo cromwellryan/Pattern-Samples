@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Xml.Linq;
+﻿using System.Linq;
 using NUnit.Framework;
 
 namespace OpenClosedPrincipal.Tests
@@ -23,7 +18,10 @@ namespace OpenClosedPrincipal.Tests
                              };
 
             var expected = new[] {"John", "Dave", "Dan","Ryan"};
-            var sortedByAge = people.OrderBy(x => x.Age).Select(x => x.Name);
+
+
+            var sortedByAge = people.OrderBy(x => x.Age)
+                                    .Select(x => x.Name);
 
             CollectionAssert.AreEquivalent(expected, sortedByAge);
         }

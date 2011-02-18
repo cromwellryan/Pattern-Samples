@@ -1,7 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrincipal", "OpenClosedPrincipal.csproj", "{C442E44B-EC6E-43D6-A69A-8DA4A05EF4BD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenClosedPrincipal", "OpenClosedPrincipal\OpenClosedPrincipal.csproj", "{C442E44B-EC6E-43D6-A69A-8DA4A05EF4BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{636EDB7A-C527-4A31-A3D9-2F86D38FD943}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
