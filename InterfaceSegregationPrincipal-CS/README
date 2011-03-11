@@ -1,0 +1,16 @@
+Interface Segregation Principal
+
+'I' in SOLID Principals http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf
+
+"Many client specific interfaces are better than one general purpose interface" 
+	- Bob Martin http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf
+
+In a Nutshell: Clients shouldn't depend on methods they do not consume.
+
+"The essence of the principle is quite simple. If you have a class that has several clients,
+rather than loading the class with all the methods that the clients need, create
+specific interfaces for each client and multiply inherit them into the class." 
+	- (Uncle) Bob Martin http://www.objectmentor.com/resources/articles/Principles_and_Patterns.pdf
+
+Martin Fowler calls this Role Interface  http://martinfowler.com/bliki/RoleInterface.html
+
