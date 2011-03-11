@@ -3,7 +3,7 @@ using System.Diagnostics;
 
 namespace InterfaceSegregationPrincipal.Violation
 {
-  public class Honda : ICar
+  public class HondaAccord : ICar
   {
     public void DriveStraight()
     {
